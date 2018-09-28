@@ -1,0 +1,65 @@
+作业问题
+1.写页面是觉得丑
+float, clear:both, margin,padding
+position:
+    left:
+
+网上找模板
+HTML模板，BootStrap
+2.背景图片
+
+HTML
+
+CSS
+    position:relativ absolute none
+    background:
+    text-align:
+    padding:
+    margin:
+    color:
+    font-size:
+    display:
+    z-index:
+    over-flow:
+    hover
+    opacity
+    float(clear:boith)
+    line-height:
+    border:
+
+    补充：页面布局
+        主站布局-
+                <div class='pg-header'> </div>
+                <div class='pg-content'> </div>
+                <div class='pg-footer'> </div>
+        后台管理布局：
+            positon:
+                fixed       永远固定在窗口的某个位置
+                relative    单独无意义
+                absolute    第一次定位，可以在指定位置，滚轮滚动时，失效
+
+            a.左侧菜单跟随滚动条滚动
+            b.左侧以及上下不动
+
+
+
+JavaScript
+
+作用域
+1.以函数作为作用域
+2.函数的作用域在函数未被调用前，已创建
+3.函数的作用域存在作用域链，并且也是在被调用之前创建
+4.函数内部局部变量，声明提前
+
+
+JavaScript支持面向对象
+
+
+DOM
+
+JQuery
+
+
+行为 样式 结构 相分离的页面？
+javascript  css  html
+
