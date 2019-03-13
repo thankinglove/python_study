@@ -17,6 +17,7 @@ def auth(auth_type):
                     print("\033[32;1mUser has passed authentication\033[0m")
                     res = func(*args, **kwargs)  # from home
                     print("---after authenticaion ")
+                    print("res=", res)
                     return res
                 else:
                     exit("\033[31;1mInvalid username or password\033[0m")
@@ -35,7 +36,7 @@ def index():
 @auth(auth_type="local")  # home = wrapper()
 def home():
     print("welcome to home  page")
-    return "from home"
+    return "from at home"
 
 
 @auth(auth_type="ldap")
@@ -45,5 +46,5 @@ def bbs():
 
 index()
 # print(home())  # wrapper()
-home()
-bbs()
+print(home())
+# bbs()

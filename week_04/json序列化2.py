@@ -19,3 +19,11 @@ f = open("test.text", "wb")
 pickle.dump(info, f)  # f.write( pickle.dumps( info) )
 
 f.close()
+
+
+f = open("test.text", "rb")
+data = pickle.load(f)
+print(data)
+
+
+

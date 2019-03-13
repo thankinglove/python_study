@@ -6,6 +6,10 @@ tree = ET.parse("xmltest.xml")
 root = tree.getroot()
 print(root.tag)
 
+iter1 = root.iter()
+
+for i in iter1:
+    print(i)
 
 # 遍历xml文档
 # for child in root:
@@ -14,5 +18,5 @@ print(root.tag)
 #         print(i.tag, i.text,i.attrib)
 
 # 只遍历year 节点
-for node in root.iter('year'):
-    print(node.tag, node.text)
+# for node in root.iter('year'):
+#     print(node.tag, node.text)

@@ -12,7 +12,7 @@ config['bitbucket.org'] = {}
 config['bitbucket.org']['User'] = 'hg'
 
 config['topsecret.server.com'] = {}
-config['topsecret.server.com']
+# config['topsecret.server.com']
 config['topsecret.server.com']['Host Port'] = '50022'  # mutates the parser
 config['topsecret.server.com']['ForwardX11'] = 'no'  # same here
 

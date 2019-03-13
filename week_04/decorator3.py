@@ -7,7 +7,7 @@ def foo():
     def bar():
         print('in the bar')
 
-    bar()
+    return bar
 
 
 foo()

@@ -6,6 +6,7 @@ def timer(func):  # timer(test1)  func=test1
     def deco(*args, **kwargs):
         start_time = time.time()
         func(*args, **kwargs)  # run test1()
+        print("args=", args)
         stop_time = time.time()
         print("the func run time  is %s" % (stop_time - start_time))
 

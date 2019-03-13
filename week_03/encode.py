@@ -3,6 +3,7 @@ print(sys.getdefaultencoding())
 __author__ = "Alex Li"
 
 s = "你哈"
+print(s)
 s_gbk = s.encode("gbk")
 
 print(s_gbk)
